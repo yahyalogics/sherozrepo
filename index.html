@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebRica</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="banner">
+	<img src="webrica2.png" class="logo">
+	<div class="banner-text">
+		<h1>Professional Developers</h1>
+		<p>We collaborate with brands and agencies </p>
+		<p>to create memorable experiences.</p>
+		<div class="banner-btn">
+			<a href="#" class="btn">Find Out</a>
+			<a href="#" class="btn">Read More</a>
+		</div>
+	</div>
+</section>
+							<!--features-->
+<section id="feature">
+	<div class="title-text">
+		<p>FEATURES</p>
+		<h1>Why Choose Us</h1>
+	</div>
+	<div class="feature-box">
+		<div class="features">
+			<h1>Experienced staff</h1>
+			<div class="features-desc">
+				<div class="feature-icon">
+				<i class="fa fa-shield"></i>  <!--not working-->
+				</div>
+				<div class="feature-text">
+					<p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</p>
+				</div>
+			</div>
+			<h1>Pre Booking Online</h1>
+			<div class="features-desc">
+				<div class="feature-icon">
+				<i class="fa fa-square-o"></i>  <!--not working-->
+				</div>
+				<div class="feature-text">
+					<p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</p>
+				</div>
+			</div>
+			<h1>Affordable Cost</h1>
+			<div class="features-desc">
+				<div class="feature-icon">
+				<i class="fa fa-inr"></i>  <!--not working-->
+				</div>
+				<div class="feature-text">
+					<p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”</p>
+				</div>
+			</div>
+		</div>
+		<div class="features-img">
+			<img src="img1.jpg">
+		</div>
+	</div>
+</section>
+
+<!--Services-->
+
+<section id="service">
+	<div class="title-text">
+		<p>SERVIES</p>
+		<h1>We Provide Better</h1>
+	</div>
+	<div class="service-box">
+		<div class="singe-service">
+			<img src="img2.jpg">
+			<div class="overlay"></div>
+			<div class="service-desc">
+				<h3>Web Developing</h3>
+				<hr>
+				<p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</p>
+			</div>
+		</div>
+		<div class="singe-service">
+			<img src="img1.jpg">
+			<div class="overlay"></div>
+			<div class="service-desc">
+				<h3>Web Developing</h3>
+				<hr>
+				<p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</p>
+			</div>
+		</div>
+		<div class="singe-service">
+			<img src="img4.jpg">
+			<div class="overlay"></div>
+			<div class="service-desc">
+				<h3>Web Developing</h3>
+				<hr>
+				<p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</p>
+			</div>
+		</div>
+		<div class="singe-service">
+			<img src="img5.jpg">
+			<div class="overlay"></div>
+			<div class="service-desc">
+				<h3>Web Developing</h3>
+				<hr>
+				<p>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div id="sidenav">
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+</div>
+<div id="menubtn">
+	<img src="menu.png" id="menu">
+</div>
+<script type="text/javascript">
+	var menubtn = document.getElementById("menubtn")
+	var sidenav = document.getElementById("sidenav")
+	var menu = document.getElementById("menu")
+
+	sidenav.style.right ="-250px";
+
+	menubtn.onclick = function(){
+		if (sidenav.style.right == "-250px") {
+			sidenav.style.right = "0";
+			menu.src = "close.png";
+		}
+		else{
+			sidenav.style.right = "-250px";
+			menu.src = "menu.png";
+		}
+	}
+</script>
+
+</body>
+</html>
